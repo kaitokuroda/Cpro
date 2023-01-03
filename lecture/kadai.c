@@ -14,7 +14,7 @@ scanf("%d",&n);
         }
     }
 for(i=0;i<n;i++){
-printf("%d人目の生徒 数学%d点　英語%d点　国語%d点\n",i,a[0][i],a[1][i],a[2][i]);
+printf("%d人目の生徒 数学%d点 英語%d点 国語%d点\n",i,a[0][i],a[1][i],a[2][i]);
             }
     for(i=0;i<3;i++){
         sum[i]=0;
@@ -29,7 +29,7 @@ printf("%d人目の生徒 数学%d点　英語%d点　国語%d点\n",i,a[0][i],a
 //        average[i]=0;
         average[i]=(float)sum[i]/(float)n;
     }
-    printf("平均点　数学%f点　英語%f点　国語%f点\n",average[0],average[1],average[2]);
+    printf("平均点　数学%f点 英語%f点 国語%f点\n",average[0],average[1],average[2]);
     for(i=0;i<3;i++){
         max[i]=0;
         min[i]=100;
@@ -55,7 +55,7 @@ printf("%d人目の生徒 数学%d点　英語%d点　国語%d点\n",i,a[0][i],a
     for(j=0;j<3;j++){
         variance[j]=s[j]/n;
     }
-    printf("分散 数学%f 英語%f　国語%f\n",variance[0],variance[1],variance[2]);
+    printf("分散 数学%f 英語%f 国語%f\n",variance[0],variance[1],variance[2]);
         
     
     
